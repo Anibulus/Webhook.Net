@@ -1,0 +1,10 @@
+POST http://localhost:5278/publish
+Content-Type: application/json
+
+{
+    "Topic": "item.new",
+    "Message": {
+        "Name": "Some Item",
+        "Price": "2.55"
+    }
+}
